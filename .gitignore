@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Uploads (contains user uploaded images - privacy)
+uploads/
+
+# Test images (may contain private data)
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Windows zone identifiers
+*:Zone.Identifier
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
